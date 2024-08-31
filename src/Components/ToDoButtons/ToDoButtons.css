@@ -1,0 +1,29 @@
+
+.ToDoButtons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Upper-buttons,
+.Lower-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 10px;
+}
+
+.Lower-buttons{
+    padding: 0 80px 30px;
+}
+
+.ToDoButtons button{
+    background-color: #008D9E;
+    margin-right: 5px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    font-size: 16px;
+}

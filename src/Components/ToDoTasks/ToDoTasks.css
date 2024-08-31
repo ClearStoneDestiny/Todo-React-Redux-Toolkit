@@ -1,0 +1,15 @@
+
+.ToDoTasks{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.ToDoTasks .Message{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* selected: #00E4FF */

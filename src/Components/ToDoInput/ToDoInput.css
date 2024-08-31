@@ -1,0 +1,39 @@
+
+.ToDoInput{
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+.ToDoInput input{
+    flex: 2;
+    border-radius: 10px;
+    color: gray;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.ToDoInput button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #008D9E;
+    color: #fff;
+    flex: 1;
+    font-size: 16px;
+}
+
+.Input-message{
+    position: absolute;
+    background-color: aqua;
+    top: -25px;
+    left: 210px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

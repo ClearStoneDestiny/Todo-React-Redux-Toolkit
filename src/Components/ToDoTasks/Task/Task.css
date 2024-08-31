@@ -1,0 +1,37 @@
+
+.List{
+    list-style-type: none;
+    padding: 0;
+}
+
+.List li{
+    background-color: #009788;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.Task-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Task-icons img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Uncompleted{
+    text-decoration: line-through;
+}
+
+.Completed{
+    text-decoration: none;
+}

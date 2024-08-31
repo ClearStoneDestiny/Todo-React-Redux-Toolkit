@@ -1,0 +1,13 @@
+.App {
+    background-color: #012839;
+    border-radius: 10px;
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    position: relative;
+}
+
+
+
